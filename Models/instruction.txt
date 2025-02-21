@@ -1,0 +1,13 @@
+##Model Setup Instructions
+
+##Download the Llama 2 Model
+To use the Llama 2 model in this project, download the following model file:
+ 
+Model File: llama-2-7b-chat.ggmlv3.q3_K_L.bin
+
+
+##Steps to Download & Use
+Visit the link https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main to access the model files.
+Download llama-2-7b-chat.ggmlv3.q3_K_L.binto your local machine.
+Move the file to the models/ directory inside the project folder.
+Ensure your system meets the hardware requirements for running Llama 2 efficiently.
