@@ -1,0 +1,86 @@
+/* Chatbot Container */
+.chatbot-container {
+    width: 400px;
+    height: 500px;
+    background: #E5D0CC; /* Matches Med Guide theme */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+/* Messages Area */
+.chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #F5E6E8;
+    display: flex;
+    flex-direction: column;
+}
+
+/* User Message */
+.user-message {
+    background: #7F7B82;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px 0;
+    max-width: 75%;
+    align-self: flex-end;
+}
+
+/* Bot Message */
+.bot-message {
+    background: #D5C6E0;
+    color: #192a51;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px 0;
+    max-width: 75%;
+    align-self: flex-start;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+    font-style: italic;
+    color: #967AA1;
+}
+
+/* Input Area */
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
+
+/* Input Field */
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #F5E6E8;
+}
+
+/* Send Button */
+.send-button {
+    background: #967AA1;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.send-button:hover {
+    background: #7F7B82;
+}
